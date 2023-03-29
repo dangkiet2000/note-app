@@ -66,6 +66,7 @@ const Note = () => {
       editorState={editorState}
       onEditorStateChange={handleOnChange}
       placeholder="Write something"
+      editorStyle={{paddingLeft : '12px', paddingTop: '-10px'}}
     />
   );
 };

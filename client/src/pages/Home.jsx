@@ -3,6 +3,7 @@ import { Box, Grid, Typography } from "@mui/material";
 import UserMenu from "../components/UserMenu";
 import FolderList from "../components/FolderList";
 import { Outlet, useLoaderData } from "react-router-dom";
+import PushNotification from "../components/PushNotification";
 
 const Home = () => {
   const { folders } = useLoaderData();
@@ -14,6 +15,7 @@ const Home = () => {
 
       <Box sx={{ display: "flex", justifyContent: "right", mb: "10px" }}>
         <UserMenu />
+        <PushNotification />
       </Box>
 
       <Grid
