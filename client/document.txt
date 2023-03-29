@@ -1,0 +1,7 @@
+1. Một cách để khi nhập URL thì tự mở popup mà LOAD LẠI PAGE KHI THAO TÁC (ADD, UPDATE, ...) Ở POPUP XONG.
+    - Thay vì dùng open, setOpen thì ta dùng hook của react-router-dom là useSeachParam... => Xem lại cách implement ở component
+        NewFolder.
+    - Vì mình dùng loader cho mỗi url => khi url thay đổi thì loader tự load lại => Data được cập nhật kiểu giống giống real-time.
+    - Mé biết cách này sớm thì ở MF mình đâu có dùng setInterval() để load lại page => Nhục nhã vl.
+
+2. loader, action, <Outlet />, useSearchParams, useSubmit của react-router-dom => Còn nhiều tính năng ngon của react-router-dom.
