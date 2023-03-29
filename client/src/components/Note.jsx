@@ -6,7 +6,7 @@ import {
   EditorState,
 } from "draft-js";
 import { Editor } from "react-draft-wysiwyg";
-import * as draftToHtml from 'draftjs-to-html';
+import draftToHtml from 'draftjs-to-html';
 import { useLoaderData, useSubmit, useLocation } from "react-router-dom";
 import { debounce } from "@mui/material";
 
